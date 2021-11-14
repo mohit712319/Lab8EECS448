@@ -1,0 +1,30 @@
+<html>
+<head>
+<div>
+		<p id="paragraph" style="background-color:red;border-style: solid; border-width: 5px; border-color: blue;text-align: center"> This text will have a red
+	background. This background can be changed based on what the user chooses. 
+	By clicking the button you can also change the border and background color along with the thickness of the border. Please enter color fields using the gradient or giving the rgb values and enter a number for the border width field. For color the rgb values can be entered as hex (00-FF) or decimal (0-255) depending on the user's choice. A link to what rgb values correspond to what color is also given below.</p>
+</div>
+</head>
+	<body>
+		<div>
+				 <label for="border">Border Color:</label>
+				 <input type="color" id="bordercolor" name="bordercolor">
+			</div>
+		<div>
+			 	<label for="background">Background Color:</label>
+				<input type="color" id="backgroundcolor" name="backgroundcolor">
+		</div>
+		<div>
+			 	<label for="background">Border Width:</label>
+				<input type="number" id="borderwidth" name="borderwidth">
+		</div>
+		 <div>
+			  	 <button class="button" onclick="change()">Change border and background</button>
+		</div>
+		<div>
+	  		<a href="https://www.rapidtables.com/web/color/RGB_Color.html"> Link for rgb values </a>
+	  	</div>
+  </body>
+  <script type="text/javascript" src="edit.js"></script>
+</html>

@@ -1,0 +1,50 @@
+p
+{
+	background-color:lightslategrey ; color: white; 
+	width: 30%;
+    height: 27%;
+    position:relative; left:80px; top:20px
+	font-size: 15pt;
+	font-family: "Copperplate"
+}
+body
+{
+	background-color: blue;
+	background-repeat: no-repeat;
+}
+h1 {
+	 font-size: 80px;
+	 font-family: "Copperplate", Fantasy;
+	 text-align: center;
+	 background-color: lightslategrey;color: white;
+}
+h2{
+	fontsize:30 px;
+	font-family: "Copperplate", Fantasy;
+	color: white;
+}
+.top-center {
+	  margin: 0;
+	  position: absolute;
+	  -ms-transform: translateX(+250%);
+	  transform: translateX(+250%);
+}
+a
+{
+	background-color: blue;
+	color: red;
+}
+a:hover
+{
+	background-color: red;
+	color: blue
+}
+.rightdisplay {
+      position: absolute;
+      right: 16px;
+}
+.bottom {
+  position: absolute;
+  bottom: 8px;
+  font-size: 30px;
+}
