@@ -2,8 +2,8 @@ p
 {
 	background-color:lightslategrey ; color: white; 
 	width: 30%;
-    height: 27%;
-    position:relative; left:80px; top:20px
+    	height: 27%;
+    	position:relative; left:40px; top:20px
 	font-size: 15pt;
 	font-family: "Copperplate"
 }
@@ -27,7 +27,7 @@ h2{
 	  margin: 0;
 	  position: absolute;
 	  -ms-transform: translateX(+250%);
-	  transform: translateX(+250%);
+	  transform: translateX(+300%);
 }
 a
 {
